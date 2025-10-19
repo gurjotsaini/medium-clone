@@ -43,7 +43,7 @@
                 @endforeach
             </div>
 
-            {{ $posts->links() }}
+            {{ $posts->onEachSide(1)->links() }}
         </div>
     </div>
 </x-app-layout>
