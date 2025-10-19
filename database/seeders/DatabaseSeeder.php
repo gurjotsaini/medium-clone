@@ -22,14 +22,14 @@ class DatabaseSeeder extends Seeder
             'email' => 'johndoe@example.com',
         ]);
 
-        $categories = ['Technology', 'Health', 'Lifestyle', 'Education', 'Entertainment'];
-
-        foreach ($categories as $category) {
-            Category::create(['name' => $category]);
-        }
-
-        $this->call([
-            PostSeeder::class,
-        ]);
+//        $categories = ['Technology', 'Health', 'Lifestyle', 'Education', 'Entertainment'];
+//
+//        foreach ($categories as $category) {
+//            Category::create(['name' => $category]);
+//        }
+//
+//        $this->call([
+//            PostSeeder::class,
+//        ]);
     }
 }
